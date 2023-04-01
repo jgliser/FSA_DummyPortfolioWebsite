@@ -1,0 +1,77 @@
+/*font*/
+body, h1, h2, h3, h4, h5, h6  {
+    font-family: monospace;
+}
+/* Home Image*/
+#homeimage{
+margin: 6.18rem;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 1.618rem;
+    text-align: center;
+    background: black;
+    color: white;
+  }
+  
+  /* Styles the top navigation bar */
+  .navbar { 
+    background-color: gray;
+    padding:1rem;
+  }
+  
+  /* Styles the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 1.618rem;
+  }
+  
+  /* Changes color on hover */
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+  }
+  
+  /* Creates three columns that sits next to each other */
+  
+  /* Left column */
+  .side {
+    flex: 19.1%;
+    background-color: rgb(187, 187, 187);
+    padding: 1.618rem;
+  }
+  /* Right column*/
+  .right {
+    flex: 19.1%;
+    background-color: rgb(187, 187, 187);
+    padding: 1.618rem;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 61.8%;
+    background-color: #efefef;
+    padding: 1.618rem;
+    min-height: 100vh;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - when the screen is less than 1280px wide (Equiv. HD-720p) */
+  @media screen and (max-width: 1280px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
